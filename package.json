@@ -1,0 +1,24 @@
+{
+    "name": "vite-minified",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@rollup/plugin-commonjs": "^21.1.0",
+        "postcss": "^8.4.12",
+        "rollup": "^2.70.2",
+        "rollup-plugin-postcss": "^4.0.2",
+        "vite": "^2.9.5"
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-runtime": "^7.17.0",
+        "@rollup/plugin-babel": "^5.3.1",
+        "@rollup/plugin-node-resolve": "^13.2.1",
+        "@rollup/plugin-typescript": "^8.3.2"
+    }
+}

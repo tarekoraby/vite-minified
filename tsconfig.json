@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "../../built/",
+        "sourceMap": true
+    },
+    "include": [
+        "index.ts",
+        "node_modules/**/*"
+    ]
+}
